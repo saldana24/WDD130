@@ -1,0 +1,82 @@
+nav a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.logo{
+    width: 80px;
+}
+
+footer {
+    background-color: #E7C24F;
+    color: rgb(23, 31, 37);
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section {
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background-color: #E7C24F;
+    color: rgb(229, 235, 240);
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+}
+
+body {
+    background-color: #396E94;
+    color: #eeecf4;
+    font-family:'Times New Roman', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.business_img{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.box {
+    
+    border: 2px solid white;
+    color: white;
+}
+
+.box1{
+    
+    border: 2px solid white;
+    color: white;
+}
+
+.box2 {
+   
+    border: 2px solid white;
+    color: white;
+}
+
+.box3{
+    
+    border: 2px solid white;
+    color: white;
+}
+
+
+
