@@ -126,22 +126,4 @@ body {
     font-size: 18px;
   }
   
-  /* Change the width of the three columns to 100%
-  (to stack horizontally on small screens) */
-  @media only screen and (max-width: 600px) {
-    .columns {
-      width: 100%;
-    }
-  }
-
-  .business_img1{
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 0px;
-    margin-top: 20%;
-  }
-
-  .business_img2{
-    margin-top: 5px;
-    margin-bottom: 120px;
-  }
+  
