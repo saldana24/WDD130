@@ -37,6 +37,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center;
+    
 }
 
 body {
@@ -78,5 +79,69 @@ body {
     color: white;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three columns of equal width */
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
 
+  /* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: #111;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+  }
+  
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #292042;
+    font-size: 20px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: rgb(255, 254, 254);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
 
+  .business_img1{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 20%;
+  }
+
+  .business_img2{
+    margin-top: 5px;
+    margin-bottom: 120px;
+  }
