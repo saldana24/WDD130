@@ -147,7 +147,8 @@ body {
   }
 
   h1{
-    text-align: center;
+    text-align: flex;
+    margin-left: 7em;
     font-size: 75px;
   }
 
